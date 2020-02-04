@@ -1,34 +1,31 @@
-
-
-.carousel-item  p{
-	color: white;
-	margin-bottom: +20px;
+h1 {
+ color: orange;
+ font-family: bold;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+p{
+	text-align: center;
+}
+hr{
+	color: red;
+}
+.lead {
+	color: red;
 }
 
-
-.carousel-caption h5{
-	margin-bottom: +50px;
+.jumbotron{
+	background-image: url(image/robot.jpg);
+	background-position: center;
+	
 }
+.carousel-item img{
+	 background-image:;
+	 background-position: center;
+     border-radius: -120px;
+	}
 
-.carousel-caption i{
-	margin-bottom: +70px;
+.carousel-item img{
+	border-radius: 12px;
 }
-.container-fluid div{
-
-	 margin-top: none;
-}
-.container h2{
-
-	 margin-top: none;
-}
-.container-fluid h5{
-	 margin-top: -25px;
-
-	 margin-bottom: none;
-}
-.container-fluid img{
-	margin-bottom: +20px;
-}
-
-
-
