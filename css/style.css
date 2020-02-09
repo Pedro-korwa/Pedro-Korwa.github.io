@@ -8,24 +8,25 @@ body {
 }
 
 .jumbotron {
-	height: 500px;
-	background-image: url(../img/mobil.jpg);
+	height: 690px;
+	background-image: url(../img/led.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0 -140px;
 	overflow: hidden;
 	position: relative;
-	border:black;
-}
+	border:black;}
 
 .jumbotron img {
 	width: 200px;
-	border: 5px solid #ddd;
+	border: 5px solid #6fc1c6;
+	margin-top: 90px;
 }
 
 .jumbotron h1, .jumbotron p {
 	color: rgba(255,255,255,.8);
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	border-color: black;
 }
 
 hr {
@@ -53,7 +54,7 @@ section {
 }
 
 .portfolio {
-	background-color: #d5d5d5;
+	background-color: #21787d;
 }
 
 .portfolio .thumbnail {
@@ -69,7 +70,7 @@ section {
 
 .contact {
 	min-height: 800px;
-	background-color: #c7c7c7;
+	background-color: #177176;
 }
 
 footer {
@@ -89,9 +90,14 @@ footer p {
 footer p i {
 	color: salmon;
 }
+.about {
+	background-color: #24868c;
+	margin-top:-15px;
+}
 
-
-
+.about img{
+	border:black;
+}
 
 
 
