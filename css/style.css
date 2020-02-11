@@ -60,7 +60,7 @@ section {
 .portfolio {
   background-color: #24868c;
   border-color: #24868c;
-  font-family: "Courier New", Courier, monospace;
+ font-family: "Lucida Console", Monaco, monospace;
 }
 
 .portfolio .thumbnail {
@@ -120,7 +120,7 @@ footer a{
   background-color: #24868c;
 }
 .display-3{
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 .progress{
@@ -130,6 +130,9 @@ footer a{
 .contact button{
   background-color: #2ab3d0;
   border-radius: 50px;
+}
+.card{
+  margin-top: 80px;
 }
 
 
