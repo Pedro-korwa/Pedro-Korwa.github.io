@@ -23,7 +23,7 @@ body {
 .jumbotron img {
   width: 200px;
   border: 5px solid #6fc1c6;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .jumbotron h1, .jumbotron p {
@@ -31,6 +31,9 @@ body {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   border-color: black;
   font-family: Courier, monospace;
+}
+.jumbotron a{
+  margin-left: 10px;
 }
 
 hr {
