@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
   height: 690px;
-  background-image: url(../img/led.jpg);
+  background-image: url(../img/space.JPG);
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 -150px;
@@ -23,7 +23,7 @@ body {
 .jumbotron img {
   width: 200px;
   border: 5px solid #6fc1c6;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .jumbotron h1, .jumbotron p {
