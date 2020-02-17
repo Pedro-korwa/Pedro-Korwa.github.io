@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
   height: 690px;
-  background-image: url(../img/question.jpg);
+  background-image: url(../img/2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -26,8 +26,13 @@ body {
   margin-top: 70px;
 }
 
+.jumbotron h1{
+  margin-top: 240px;
+}
+
+
 .jumbotron h1, .jumbotron p {
-  color: rgba(255,255,255,.8);
+  color :#eeeeee;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   border-color: black;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -64,9 +69,12 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  background-color: #24868c;
-  border-color: #24868c;
+  background-color: black;
+  border-color: black;
   font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio h2, .portfolio h4, .portfolio p{
+   color:#eeeeee;
 }
 
 .portfolio .thumbnail {
@@ -91,7 +99,7 @@ section {
   width: 100%;
   height: 160px;
   min-height: 800px;
-  background-color: #24868c;
+  background-color: black;
   font-family: Garamond, serif;
   font-size: 18px;
 }
@@ -125,7 +133,7 @@ footer a{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  background-color: #24868c;
+  background-color: black;
   margin-top:-30px;
   font-family: "Lucida Console", Monaco, monospace;
 }
@@ -135,8 +143,8 @@ footer a{
 }
 
 
-.about h3, .about p{
-  color: black;
+.about h3, .about p,  .about h2{
+  color: #eeeeee;
 }
 
 .contact label, .contact option .contact button{
@@ -147,7 +155,10 @@ footer a{
 }
 
 .counter_area{
-  background-color: #24868c;
+  background-color: black;
+}
+.counter_area h3, .counter_area span{
+  color:#eeeeee;
 }
 .display-3{
   margin-top: 40px;
@@ -158,8 +169,12 @@ footer a{
   background-color: #c4c4c4;
 }
 .contact button{
-  background-color: #2ab3d0;
+  background-color: black;
 }
 .card{
   margin-top: 80px;
 }
+.contact label, .contact h2{
+  color:#eeeeee;
+}
+
