@@ -39,8 +39,7 @@ body {
 }
 hr {
   width: 250px;
-  border-top: 3px solid #999;
-  color:blue;
+  border-top: 3px solid blue;
 }
 
 section {
