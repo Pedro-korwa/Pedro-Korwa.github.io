@@ -11,7 +11,11 @@ body {
 
 .jumbotron {
   height: 690px;
+<<<<<<< HEAD
   background-image: url(../img/sa.jpg);
+=======
+  background-image: url(../img/network2.jpg);
+>>>>>>> 6ef30f6d2026fa6cfc6f4e89b417a95925c88884
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
