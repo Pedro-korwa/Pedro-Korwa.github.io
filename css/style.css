@@ -11,7 +11,7 @@ body {
 
 .jumbotron {
   height: 690px;
-  background-image: url(../img/old.JPG);
+  background-image: url(../img/old.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
