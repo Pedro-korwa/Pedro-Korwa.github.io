@@ -9,10 +9,16 @@ body {
   background-image: url(../img/network1.jpg);
 }
 
+<<<<<<< HEAD
 .papua {
   height: 700px;
   background-image: url(../img/mouse.JPG);
 
+=======
+.jumbotron {
+  height: 690px;
+  background-image: url(../img/old.jpg);
+>>>>>>> d2dcd25427ed11895ef0a2dc05b9d77c0ac4fcd9
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
