@@ -9,16 +9,10 @@ body {
   background-image: url(../img/network1.jpg);
 }
 
-<<<<<<< HEAD
+
 .papua {
   height: 700px;
-  background-image: url(../img/mouse.JPG);
-
-=======
-.jumbotron {
-  height: 690px;
-  background-image: url(../img/old.jpg);
->>>>>>> d2dcd25427ed11895ef0a2dc05b9d77c0ac4fcd9
+  background-image: url(../img/mouse.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -30,7 +24,7 @@ body {
 
 .papua img {
 }
-  section
+ section
 {
   position: :relative;
   height: 100vh;
@@ -90,21 +84,18 @@ img
 img{
   font-size: 6em;
   filter: blur(.6px);
-    font-weight: 100;
-    text-transform: initial;
+  font-weight: 100;
+  text-transform: initial;
   text-shadow: 0 0 1px rgba(255,255,255,1),
   text-shadow: 0 0 2px rgba(255,255,255,1),
   text-shadow: 0 0 4px rgba(255,255,255,1),
   text-shadow: 0 0 8px rgba(255,255,255,1),
   text-shadow: 0 0 16px rgba(255,255,255,1);
 }
-{
-  width: 200px;
-  border: 5px solid #6fc1c6;
-  margin-top: 70px;
-}
+
 .papua p{
-  font-size: 20px;
+  font-size: 35px;
+  font-family: Garamond, serif;
 }
 
 
@@ -149,7 +140,6 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  border-color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 .portfolio h2, .portfolio h4, .portfolio p{
@@ -200,9 +190,6 @@ footer {
   font-family: "Lucida Console", Monaco, monospace;
 }
 
-.about img{
-   border:4px  solid black; 
-}
 
 
 .about h3, .about p,  .about h2{
@@ -217,7 +204,6 @@ footer {
   margin-bottom: 50px;
 }
 .progress{
-  border-radius: 10px;
   background-color: #c4c4c4;
 }
 .card{
