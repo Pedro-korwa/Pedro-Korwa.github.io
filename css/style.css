@@ -206,6 +206,7 @@ footer {
 }
 .progress{
   background-color: #c4c4c4;
+  border-radius: 10px;
 }
 .card{
   margin-top: 80px;
@@ -222,5 +223,5 @@ footer {
   text-align: center;
 }
 .navbar {
-  background-color: transparent;
+  background-color: black;
 }
