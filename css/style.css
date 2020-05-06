@@ -13,7 +13,7 @@ body {
 
 .papua {
   height: 700px;
-  background-image: url(../img/mouse.jpg);
+  background-image: url(../img/girl.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -28,8 +28,6 @@ body {
  section
 {
   position: :relative;
-  height: 100vh;
-  width: 100%;
   background: #000;
   display: flex;
   justify-content: center;
@@ -74,7 +72,6 @@ img
   color: #fff;
   text-transform: uppercase;
   font-size: 2em;
-  filter: blur(2px);
   font-weight: 100;
   text-shadow: 0 0 10px rgba(255,255,255,1),
   text-shadow: 0 0 20px rgba(255,255,255,1),
@@ -84,7 +81,6 @@ img
 }
 img{
   font-size: 6em;
-  filter: blur(.6px);
   font-weight: 100;
   text-transform: initial;
   text-shadow: 0 0 1px rgba(255,255,255,1),
@@ -112,10 +108,6 @@ img{
 hr {
   width: 250px;
   border-top: 3px solid blue;
-}
-
-section {
-  min-height: 600px;
 }
 
 .kiri, .kanan {
