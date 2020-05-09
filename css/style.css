@@ -186,6 +186,7 @@ footer {
 
 
 .about h3, .about p,  .about h2{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color: #eeeeee;
 }
 
@@ -215,5 +216,6 @@ footer {
   text-align: center;
 }
 .navbar {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   background-color: black;
 }
