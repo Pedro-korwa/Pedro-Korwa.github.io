@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+body {
+  margin-bottom: 120px;
+  margin-top: 30px;
+  background-image: url(../img/network1.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.papua {
+  height: 700px;
+  background-image: url(../img/girl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  border:black;
+
+}
+
+.papua img {
+}
+ section
+{
+  position: :relative;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+section:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00adff;
+  z-index: 1;
+  mix-blend-mode: color;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
+img
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 100;
+  text-shadow: 0 0 10px rgba(255,255,255,1),
+  text-shadow: 0 0 20px rgba(255,255,255,1),
+  text-shadow: 0 0 40px rgba(255,255,255,1),
+  text-shadow: 0 0 80px rgba(255,255,255,1),
+  text-shadow: 0 0 160px rgba(255,255,255,1);
+}
+img{
+  font-size: 6em;
+  font-weight: 100;
+  text-transform: initial;
+  text-shadow: 0 0 1px rgba(255,255,255,1),
+  text-shadow: 0 0 2px rgba(255,255,255,1),
+  text-shadow: 0 0 4px rgba(255,255,255,1),
+  text-shadow: 0 0 8px rgba(255,255,255,1),
+  text-shadow: 0 0 16px rgba(255,255,255,1);
+}
+
+.papua p{
+  font-size: 35px;
+  font-family: Garamond, serif;
+}
+
+
+
+.papua h1{
+  margin-top: 240px;
+  font-size: 60px;
+  color:white; 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+hr {
+  width: 250px;
+  border-top: 3px solid blue;
+}
+
+.pace, .mace {
+  opacity: 0;
+  transform: translate(-30px, 0);
+  transition: 2s;
+}
+
+.mace {
+  transform: translate(30px, 0);
+}
+
+.pace-go, .mace-go {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.portfolio {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio h2, .portfolio h4, .portfolio p{
+   color:#eeeeee;
+}
+
+.portfolio .thumbnail {
+  opacity: 0;
+  transform: translate(0,-40px);
+  transition: .3s;
+}
+
+.portfolio .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.contact {
+
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  font-family: Garamond, serif;
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.about {
+    position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top:-30px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+
+.about h3, .about p,  .about h2{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #eeeeee;
+}
+
+.counter_area h3, .counter_area span{
+  color:#eeeeee;
+}
+.display-3{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.progress{
+  background-color: #c4c4c4;
+  border-radius: 10px;
+}
+.card{
+  margin-top: 80px;
+}
+.contact label, .contact h2{
+  color:#eeeeee;
+}
+
+.jumbotrono h1, p{
+  color:white;
+
+}
+.jumbotrono{
+  text-align: center;
+}
+.navbar {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: black;
+}

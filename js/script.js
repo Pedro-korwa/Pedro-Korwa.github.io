@@ -1,4 +1,8 @@
 // event pada saat link di klik
+$(document).ready(function() {
+
+
+	
 $('.page-scroll').on('click', function(e){
 
 	// ambil isi href
@@ -15,10 +19,10 @@ $('.page-scroll').on('click', function(e){
 
 });
 
-// parallax
+// parallax tulisan bergeser
 $(window).on('load', function(){
-	$('.kiri').addClass('kiri-go');
-	$('.kanan').addClass('kanan-go')
+	$('.pace').addClass('pace-go');
+	$('.mace').addClass('mace-go')
 });
 
 $(window).scroll(function(){
@@ -34,7 +38,7 @@ $(window).scroll(function(){
 
 	$('.jumbotron p').css({
 		'transform': 'translate(0px, '+ wScroll / 1.2 +'%)'
-	});
+	});z
 
 
 	// portfolio
@@ -58,10 +62,12 @@ new Typed('#typed',{
 });
 
 
+$('#slideToggle').click(function(){
+	$('#footer').slideToggle(2000);
+});
 
 
-
-
+});
 
 
 
