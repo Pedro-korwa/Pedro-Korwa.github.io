@@ -112,12 +112,12 @@ hr {
 
 .pace, .mace {
   opacity: 0;
-  transform: translate(-30px, 0);
+  transform: translate(-30px, 0) rotate(15deg);
   transition: 2s;
 }
 
 .mace {
-  transform: translate(30px, 0);
+  transform: translate(30px, 0) rotate(-15deg);
 }
 
 .pace-go, .mace-go {
