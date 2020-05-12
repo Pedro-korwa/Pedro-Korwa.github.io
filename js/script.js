@@ -38,15 +38,15 @@ $(window).scroll(function(){
 
 	$('.jumbotron p').css({
 		'transform': 'translate(0px, '+ wScroll / 1.2 +'%)'
-	});z
+	});
 
 
 	// portfolio
-	if( wScroll > $('.portfolio').offset().top - 600 ) {
+	if( wScroll > $('.portfolio').offset().top - 100 ) {
 		
-		$('.portfolio .thumbnail').each(function(i) {
+		$('.portfolio .napi').each(function(i) {
 			setTimeout(function() {
-				$('.portfolio .thumbnail').eq(i).addClass('muncul');
+				$('.portfolio .napi').eq(i).addClass('muncul');
 			}, 180 * (i+1))
 
 		});

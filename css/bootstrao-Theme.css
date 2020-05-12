@@ -112,12 +112,12 @@ hr {
 
 .pace, .mace {
   opacity: 0;
-  transform: translate(-30px, 0) rotate(15deg);
+  transform: translate(-30px, 0) rotate(100deg);
   transition: 2s;
 }
 
 .mace {
-  transform: translate(30px, 0) rotate(-15deg);
+  transform: translate(30px, 0) rotate(-100deg);
 }
 
 .pace-go, .mace-go {
@@ -139,13 +139,13 @@ hr {
    color:#eeeeee;
 }
 
-.portfolio .thumbnail {
+.portfolio .napi {
   opacity: 0;
   transform: translate(0,-40px);
   transition: .3s;
 }
 
-.portfolio .thumbnail.muncul {
+.portfolio .napi.muncul {
   opacity: 1;
   transform: translate(0,0);
 }
