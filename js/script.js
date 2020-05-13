@@ -24,7 +24,7 @@ $(window).on('load', function(){
 	$('.pace').addClass('pace-go');
 	$('.mace').addClass('mace-go')
 });
-
+// bagian tulisa di jumbotron
 $(window).scroll(function(){
 	var wScroll = $(this).scrollTop();
 
@@ -40,11 +40,21 @@ $(window).scroll(function(){
 		'transform': 'translate(0px, '+ wScroll / 1.2 +'%)'
 	});
 
+// ini bagian scroll menyala
+  let progress = document.getElementById('progressbar');
+  let totalHeight = document.body.scrollHeight -
+  window.innerHeight;
+  window. onscroll = function(){
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+  }
 
-	// portfolio
+  // ini akhirnya dari scroll menyala
+	// portfolio box model
 	if( wScroll > $('.portfolio').offset().top - 100 ) {
 		
 		$('.portfolio .napi').each(function(i) {
+			console.log('yoman');
 			setTimeout(function() {
 				$('.portfolio .napi').eq(i).addClass('muncul');
 			}, 180 * (i+1))
