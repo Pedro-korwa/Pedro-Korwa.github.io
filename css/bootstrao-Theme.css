@@ -10,6 +10,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.pinang:hover{
+  -webkit-filter:drop-shadow();
+  filter:drop-shadow(2px 2px 2px blue);
+  transform: scale(1.2);
+}
+
 
 .papua {
   height: 700px;
