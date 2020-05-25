@@ -17,6 +17,14 @@ body {
 }
 
 
+.arkar:hover {
+  transform: scale(1.2);
+  -webkit-filter:drop-shadow();
+  filter:drop-shadow(2px 2px 2px red);
+  cursor: pointer;
+}
+
+
 .papua {
   height: 700px;
   background-image: url(../img/par.jpg);
